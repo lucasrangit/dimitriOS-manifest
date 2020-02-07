@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com/platisd/" name="platisd"/>
+  <remote fetch="git://github.com/platisd/" name="origin"/>
 
   <default sync-j="4"/>
 
@@ -19,7 +19,7 @@
     revision="zeus"
     path="layers/meta-raspberrypi"/>
   <project name="meta-dimitriOS"
-    remote="platisd"
+    remote="origin"
     revision="master"
     path="layers/meta-dimitriOS"/>
 </manifest>
