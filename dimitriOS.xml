@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com/platisd/" name="origin"/>
+  <remote fetch="git://github.com/platisd" name="origin"/>
 
   <default sync-j="4"/>
 
