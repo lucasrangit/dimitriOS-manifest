@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+
+  <default sync-j="4"/>
+
+  <project name="poky"
+    remote="yocto"
+    revision="zeus"
+    path="layers/poky"/>
+  <project name="meta-openembedded"
+    remote="oe"
+    revision="zeus"
+    path="layers/meta-openembedded"/>
+  <project name="meta-raspberrypi"
+    remote="yocto"
+    revision="zeus"
+    path="layers/meta-raspberrypi"/>
+</manifest>
