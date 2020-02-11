@@ -14,10 +14,6 @@
     remote="oe"
     revision="zeus"
     path="layers/meta-openembedded"/>
-  <project name="meta-raspberrypi"
-    remote="yocto"
-    revision="zeus"
-    path="layers/meta-raspberrypi"/>
   <project name="meta-dimitriOS"
     remote="origin"
     revision="master"
