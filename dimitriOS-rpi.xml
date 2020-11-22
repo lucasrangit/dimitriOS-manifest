@@ -6,6 +6,6 @@
 
   <project name="meta-raspberrypi"
     remote="yocto"
-    revision="zeus"
+    revision="dunfell"
     path="layers/meta-raspberrypi"/>
 </manifest>

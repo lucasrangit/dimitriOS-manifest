@@ -8,11 +8,11 @@
 
   <project name="poky"
     remote="yocto"
-    revision="zeus"
+    revision="dunfell"
     path="layers/poky"/>
   <project name="meta-openembedded"
     remote="oe"
-    revision="zeus"
+    revision="dunfell"
     path="layers/meta-openembedded"/>
   <project name="meta-dimitriOS"
     remote="origin"
